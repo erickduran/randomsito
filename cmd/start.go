@@ -42,6 +42,7 @@ var startCmd = &cobra.Command{
 		}
 
 		fmt.Println("✅", utils.GetString(Language, "connected"))
+		fmt.Println(utils.GetString(Language, "greet"))
 
 		classrooms, err := client.Database(MongoDatabase).ListCollectionNames(ctx, bson.M{})
 		if err != nil {

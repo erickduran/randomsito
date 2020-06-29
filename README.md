@@ -1,5 +1,5 @@
 # randomsito
-A simple CLI for interative classes. 
+A simple CLI for interative classes. Made for teaching.
 
 ## Usage
 ### Prerequisistes
@@ -22,7 +22,7 @@ Finally, run:
 ```bash
 randomsito
 ```
-NOTE: this CLI is only intended for local usage at the moment, as MongoDB authentication has not been implemented.
+> This CLI is only intended for local usage at the moment, as MongoDB authentication has not been implemented.
 
 ### Configuration
 If you want to define your configuration using a file, you can define `~/.randomsito.yaml` as:
